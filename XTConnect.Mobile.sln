@@ -1,12 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTConnect.Mobile", "XTConnect.Mobile\XTConnect.Mobile.csproj", "{B4BD4A96-1FAF-4638-81A8-2DC0D75677B0}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XTConnect.Mobile", "XTConnect.Mobile\XTConnect.Mobile.csproj", "{B4BD4A96-1FAF-4638-81A8-2DC0D75677B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTConnect.Core", "XTConnect.Core\XTConnect.Core.csproj", "{4D541714-1C2A-46BC-8A3F-E1AC764CC9FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XTConnect.Core", "XTConnect.Core\XTConnect.Core.csproj", "{4D541714-1C2A-46BC-8A3F-E1AC764CC9FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTConnect.Module.Login", "XTConnect.Modules\XTConnect.Module.Login\XTConnect.Module.Login.csproj", "{88E7944B-EFFE-4DB3-A414-46D813860CBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XTConnect.Module.Login", "XTConnect.Modules\XTConnect.Module.Login\XTConnect.Module.Login.csproj", "{88E7944B-EFFE-4DB3-A414-46D813860CBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XTConnect.Module.AppUI", "XTConnect.Modules\XTConnect.Module.AppUI\XTConnect.Module.AppUI.csproj", "{5CF59B99-0B4C-4412-93A2-F5524983E0EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XTConnect.Module.AppUI", "XTConnect.Modules\XTConnect.Module.AppUI\XTConnect.Module.AppUI.csproj", "{5CF59B99-0B4C-4412-93A2-F5524983E0EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,6 +19,7 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B4BD4A96-1FAF-4638-81A8-2DC0D75677B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B4BD4A96-1FAF-4638-81A8-2DC0D75677B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BD4A96-1FAF-4638-81A8-2DC0D75677B0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{B4BD4A96-1FAF-4638-81A8-2DC0D75677B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4BD4A96-1FAF-4638-81A8-2DC0D75677B0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D541714-1C2A-46BC-8A3F-E1AC764CC9FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +34,8 @@ Global
 		{5CF59B99-0B4C-4412-93A2-F5524983E0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CF59B99-0B4C-4412-93A2-F5524983E0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CF59B99-0B4C-4412-93A2-F5524983E0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
